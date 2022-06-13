@@ -1,0 +1,22 @@
+{
+  "name": "create-legot",
+  "version": "0.0.1",
+  "description": "Create Legot application.",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firas88Alkhatib/create-legot.git"
+  },
+  "keywords": ["legot", "create legot"],
+  "bugs": {
+    "url": "https://github.com/Firas88Alkhatib/create-legot/issues"
+  },
+  "homepage": "https://github.com/Firas88Alkhatib/create-legot#readme",
+  "author": "Firas Alkhatib",
+  "license": "MIT",
+  "bin": { "create-legot": "./index.js" },
+  "dependencies": {
+    "colorterm": "^1.0.0"
+  }
+}

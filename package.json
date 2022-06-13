@@ -1,0 +1,32 @@
+{
+  "name": "create-legot",
+  "version": "0.0.1",
+  "description": "Create Legot application.",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firas88Alkhatib/create-legot.git"
+  },
+  "keywords": [
+    "legot"
+  ],
+  "bugs": {
+    "url": "https://github.com/Firas88Alkhatib/create-legot/issues"
+  },
+  "homepage": "https://github.com/Firas88Alkhatib/create-legot#readme",
+  "scripts": {
+    "pre-build": "npx ts-node ./scripts/PreBuild.ts",
+    "post-build": "npx ts-node ./scripts/PostBuild.ts",
+    "build": "npm run pre-build && npx tsc && npm run post-build"
+  },
+  "author": "Firas Alkhatib",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "colorterm": "^1.0.0"
+  }
+}

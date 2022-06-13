@@ -1,0 +1,19 @@
+div {
+  width: 500px;
+  height: 500px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+span {
+  background: rgb(250, 250, 250);
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  font-size: 2.5rem;
+}
